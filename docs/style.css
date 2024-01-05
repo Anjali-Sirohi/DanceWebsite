@@ -57,6 +57,15 @@ body {
     color: blue;
     flex-direction: column;
 }
+#introSection::before {  
+    height: 350px;
+    width: 100%;
+    content: "";
+    position: absolute;
+    opacity: 0.9;
+    z-index: -1;
+    background: url('img/dance.jpg') no-repeat center center/cover;
+}
 #introSection div.small{
     font-size: 30px;
 }
