@@ -47,9 +47,6 @@ body {
 }
 
 #introSection {  
-    height: 350px;
-    width: 100%;
-    background: url('img/dance.jpg') no-repeat center center/cover;
     justify-content: center;
     align-items: center;
     display: flex;
