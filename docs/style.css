@@ -55,13 +55,6 @@ body {
     font-size: 30px;
     color: blue;
     flex-direction: column;
-}
-#introSection::before {  
-    
-    content: "";
-    position: absolute;
-    opacity: 0.9;
-    z-index: -1;
     background: url('img/dance.jpg') no-repeat center center/cover;
 }
 #introSection div.small{
