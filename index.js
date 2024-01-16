@@ -38,11 +38,11 @@ app.get('/', (req, res) => {
     const para = {}
     res.status(200).render('index.html', para);
 })
-//app.get('/contact', (req, res) => {
+app.get('/contact', (req, res) => {
     // const con = 'This is the best app Lorem ipsum dolor sit amet consectetur adipisicing elit.';
-    //const para = {}
-   // res.status(200).render('contact.html', para);
-//})
+    const para = {}
+   res.status(200).render('contact.html', para);
+})
 
 
 app.post('/contact', (req, res) => {
